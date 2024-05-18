@@ -71,6 +71,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showPopulationFilterView(sender: AnyObject) {
+        searchTextFieldView.resignFirstResponder()
         
         let alert = UIAlertController(title: "Population ", message: nil, preferredStyle: .actionSheet)
         
