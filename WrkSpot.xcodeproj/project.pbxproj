@@ -85,6 +85,7 @@
 				38FAE2DF2BF8A9EF00989834 /* Model */,
 				38FAE2DD2BF8A9DB00989834 /* ViewModel */,
 				3866FF272BF892A600A5E142 /* Views */,
+				38AE11FF2BF8C4AB00ECBFA7 /* CustomViews */,
 				3866FF132BF87A0600A5E142 /* Main.storyboard */,
 				3866FF162BF87A0700A5E142 /* Assets.xcassets */,
 				3866FF182BF87A0700A5E142 /* LaunchScreen.storyboard */,
@@ -97,10 +98,17 @@
 			isa = PBXGroup;
 			children = (
 				3866FF112BF87A0600A5E142 /* ViewController.swift */,
-				38FAE2E42BF8AF1C00989834 /* SpinnerViewController.swift */,
 				38FAE2E12BF8AA0100989834 /* Cells */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		38AE11FF2BF8C4AB00ECBFA7 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				38FAE2E42BF8AF1C00989834 /* SpinnerViewController.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		38FAE2DD2BF8A9DB00989834 /* ViewModel */ = {
